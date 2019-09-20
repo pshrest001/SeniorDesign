@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:versionCode="18"
+    android:versionName="1.2.12">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+
+    <uses-sdk android:targetSdkVersion="25" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:resizeable="true"
+        android:xlargeScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme.Dark">
+
+        <!-- The main activity -->
+        <activity
+            android:name="com.example.myapplication.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- SMS messages sending-->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+
+            <!-- Deep Link -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.example.blacklist" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- Generic custom activity -->
+        <activity
+            android:name="com.example.myapplication.activities.CustomFragmentActivity"
+            android:theme="@style/AppTheme.Dark" />
+
+        <!-- BroadcastReceiver listens for incoming calls -->
+        <receiver android:name="com.example.myapplication.receivers.CallBroadcastReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- BroadcastReceiver listens for incoming SMS messages -->
+        <receiver
+            android:name="com.example.myapplication.receivers.SMSBroadcastReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="100">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- BroadcastReceiver listens for incoming MMS messages -->
+        <receiver
+            android:name="com.example.myapplication.receivers.MMSBroadcastReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Service delivers messages from the phone "quick response" -->
+        <service
+            android:name="com.example.myapplication.services.SMSRespondService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+
+        <!-- BroadcastReceiver listens for sending/delivering SMS messages -->
+        <receiver android:name="com.example.myapplication.receivers.SMSSendResultBroadcastReceiver" />
+
+        <!-- Service processes received SMS messages -->
+        <service android:name="com.example.myapplication.services.SMSProcessService" />
+
+        <!-- Service processes SMS/Call blocking events -->
+        <service android:name="com.example.myapplication.services.BlockEventProcessService" />
+
+        <!-- Service sends SMS messages -->
+        <service android:name="com.example.myapplication.services.SMSSendService" />
+
+    </application>
+
+</manifest>
