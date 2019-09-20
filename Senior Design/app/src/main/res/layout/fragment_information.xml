@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.InformationFragment">
+
+    <android.support.v7.widget.ListViewCompat
+        android:id="@+id/help_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="none"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:theme="?AppTheme.ListView" />
+
+</LinearLayout>
