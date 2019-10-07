@@ -1,7 +1,7 @@
 package com.example.myapplication.activities;
 
 import android.content.Intent;
-//import android.net.Uri;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
@@ -22,12 +22,12 @@ import com.example.myapplication.R;
 import com.example.myapplication.fragments.ContactsFragment;
 import com.example.myapplication.fragments.FragmentArguments;
 import com.example.myapplication.fragments.InformationFragment;
-//import com.example.myapplication.fragments.JournalFragment;
-//import com.example.myapplication.fragments.SMSConversationFragment;
-//import com.example.myapplication.fragments.SMSConversationsListFragment;
-//import com.example.myapplication.fragments.SMSSendFragment;
-//import com.example.myapplication.fragments.SettingsFragment;
-//import com.example.myapplication.utils.ContactsAccessHelper;
+import com.example.myapplication.fragments.JournalFragment;
+import com.example.myapplication.fragments.SMSConversationFragment;
+import com.example.myapplication.fragments.SMSConversationsListFragment;
+import com.example.myapplication.fragments.SMSSendFragment;
+import com.example.myapplication.fragments.SettingsFragment;
+import com.example.myapplication.utils.ContactsAccessHelper;
 import com.example.myapplication.utils.DatabaseAccessHelper.Contact;
 import com.example.myapplication.utils.Permissions;
 import com.example.myapplication.utils.Settings;
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
             switch (action) {
                 case ACTION_SMS_SEND_TO:
                     // show SMS sending activity
-                    //showSendSMSActivity();
+                    showSendSMSActivity();
                     // switch to SMS chat fragment
                     itemId = R.id.nav_sms;
                     break;
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity
         return super.onKeyUp(keyCode, event);
     }
 
-//=================================================================================================
+//----------------------------------------------------------------------------
 
     private void selectNavigationMenuItem(int itemId) {
         navigationView.getMenu().clear();
@@ -219,14 +219,13 @@ public class MainActivity extends AppCompatActivity
         private final String CURRENT_FRAGMENT = "CURRENT_FRAGMENT";
         private ContactsFragment blackListFragment = new ContactsFragment();
         private ContactsFragment whiteListFragment = new ContactsFragment();
-        //private JournalFragment journalFragment = new JournalFragment();
-        //private SettingsFragment settingsFragment = new SettingsFragment();
+        private JournalFragment journalFragment = new JournalFragment();
+        private SettingsFragment settingsFragment = new SettingsFragment();
         private InformationFragment informationFragment = new InformationFragment();
-        //private SMSConversationsListFragment smsFragment = new SMSConversationsListFragment();
+        private SMSConversationsListFragment smsFragment = new SMSConversationsListFragment();
 
         boolean onBackPressed() {
-            return
-                    //journalFragment.dismissSnackBar() ||
+            return journalFragment.dismissSnackBar() ||
                     blackListFragment.dismissSnackBar() ||
                     whiteListFragment.dismissSnackBar();
         }
@@ -238,6 +237,10 @@ public class MainActivity extends AppCompatActivity
             Bundle extras = intent.getExtras();
             Bundle arguments = (extras != null ? new Bundle(extras) : new Bundle());
             switch (itemId) {
+                case R.id.nav_journal:
+                    arguments.putString(TITLE, getString(R.string.Journal));
+                    switchFragment(journalFragment, arguments);
+                    break;
                 case R.id.nav_black_list:
                     arguments.putString(TITLE, getString(R.string.Black_list));
                     arguments.putInt(CONTACT_TYPE, Contact.TYPE_BLACK_LIST);
@@ -247,6 +250,18 @@ public class MainActivity extends AppCompatActivity
                     arguments.putString(TITLE, getString(R.string.White_list));
                     arguments.putInt(CONTACT_TYPE, Contact.TYPE_WHITE_LIST);
                     switchFragment(whiteListFragment, arguments);
+                    break;
+                case R.id.nav_sms:
+                    arguments.putString(TITLE, getString(R.string.Messaging));
+                    switchFragment(smsFragment, arguments);
+                    break;
+                case R.id.nav_settings:
+                    arguments.putString(TITLE, getString(R.string.Settings));
+                    switchFragment(settingsFragment, arguments);
+                    break;
+                default:
+                    arguments.putString(TITLE, getString(R.string.Information));
+                    switchFragment(informationFragment, arguments);
                     break;
             }
 
@@ -273,5 +288,50 @@ public class MainActivity extends AppCompatActivity
                 ft.detach(fragment).attach(fragment).commit();
             }
         }
+    }
+
+    // Shows the activity of SMS sending
+    private void showSendSMSActivity() {
+        Uri uri = getIntent().getData();
+        if (uri == null) {
+            return;
+        }
+
+        // get phone number where to send the SMS
+        String ssp = uri.getSchemeSpecificPart();
+        String number = ContactsAccessHelper.normalizePhoneNumber(ssp);
+        if (number.isEmpty()) {
+            return;
+        }
+
+        // find person by phone number in contacts
+        String person = null;
+        ContactsAccessHelper db = ContactsAccessHelper.getInstance(this);
+        Contact contact = db.getContact(this, number);
+        if (contact != null) {
+            person = contact.name;
+        }
+
+        // get SMS thread id by phone number
+        int threadId = db.getSMSThreadIdByNumber(this, number);
+        if (threadId >= 0) {
+            // get the count of unread sms of the thread
+            int unreadCount = db.getSMSMessagesUnreadCountByThreadId(this, threadId);
+
+            // open thread's SMS conversation activity
+            Bundle arguments = new Bundle();
+            arguments.putInt(FragmentArguments.THREAD_ID, threadId);
+            arguments.putInt(FragmentArguments.UNREAD_COUNT, unreadCount);
+            arguments.putString(FragmentArguments.CONTACT_NUMBER, number);
+            String title = (person != null ? person : number);
+            CustomFragmentActivity.show(this, title, SMSConversationFragment.class, arguments);
+        }
+
+        // open SMS sending activity
+        Bundle arguments = new Bundle();
+        arguments.putString(FragmentArguments.CONTACT_NAME, person);
+        arguments.putString(FragmentArguments.CONTACT_NUMBER, number);
+        String title = getString(R.string.New_message);
+        CustomFragmentActivity.show(this, title, SMSSendFragment.class, arguments);
     }
 }

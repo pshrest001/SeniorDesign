@@ -30,7 +30,7 @@ import com.example.myapplication.utils.ButtonsBar;
 import com.example.myapplication.utils.ContactsAccessHelper.ContactSourceType;
 import com.example.myapplication.utils.DatabaseAccessHelper;
 import com.example.myapplication.utils.DatabaseAccessHelper.Contact;
-//import com.example.myapplication.utils.DefaultSMSAppHelper;
+import com.example.myapplication.utils.DefaultSMSAppHelper;
 import com.example.myapplication.utils.DialogBuilder;
 import com.example.myapplication.utils.IdentifiersContainer;
 import com.example.myapplication.utils.Permissions;
@@ -529,6 +529,9 @@ public class ContactsFragment extends Fragment implements FragmentArguments {
     private void showDefaultSMSAppPrompt() {
         if (defaultSMSAppPrompt && contactType == Contact.TYPE_BLACK_LIST) {
             defaultSMSAppPrompt = false;
+            if (!DefaultSMSAppHelper.isDefault(getContext())) {
+                Toast.makeText(getContext(), R.string.To_block_SMS_set_def_app, Toast.LENGTH_LONG).show();
+            }
         }
     }
 }
