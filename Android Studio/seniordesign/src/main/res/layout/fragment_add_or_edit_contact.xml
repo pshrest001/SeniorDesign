@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="4dp"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="4dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="4dp"
+                android:paddingStart="0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?shape_border"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?colorText"
+                        android:text="@string/Contact_name_" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selector_edit"
+                    android:ellipsize="end"
+                    android:hint="@string/Contact_name_nn"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="2dp"
+                    android:scrollHorizontally="true"
+                    android:textColorHint="?colorTextSecondary"
+                    android:textSize="@dimen/textSize18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/numbers_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:orientation="vertical" />
+
+            <ImageButton
+                android:id="@+id/button_add_another"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:clickable="false"
+                android:contentDescription="@string/Add_contact"
+                android:src="@drawable/ic_person_add"
+                android:tint="?colorAccent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        layout="@layout/row_3_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,281 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.praveena.blacklist"
+4    android:versionCode="18"
+5    android:versionName="1.2.12" >
+6
+7    <uses-sdk
+7-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+8        android:minSdkVersion="9"
+8-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+9        android:targetSdkVersion="25" />
+9-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:22:9-38
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:7:5-81
+11-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:8:5-72
+12-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:8:22-69
+13    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+13-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:9:5-73
+13-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:9:22-70
+14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+14-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:10:5-72
+14-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:10:22-69
+15    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+15-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:11:5-73
+15-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:11:22-70
+16    <uses-permission android:name="android.permission.READ_SMS" />
+16-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:12:5-67
+16-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+17-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:13:5-70
+17-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:13:22-67
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:14:5-75
+18-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:14:22-72
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:15:5-69
+19-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:15:22-66
+20    <uses-permission android:name="android.permission.WRITE_SMS" />
+20-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:16:5-68
+20-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:16:22-65
+21    <uses-permission android:name="android.permission.SEND_SMS" />
+21-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:17:5-67
+21-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:17:22-64
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:18:5-66
+22-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:18:22-63
+23    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+23-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:19:5-77
+23-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:19:22-74
+24
+25    <supports-screens
+25-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:24:5-30:39
+26        android:anyDensity="true"
+26-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:25:9-34
+27        android:largeScreens="true"
+27-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:28:9-36
+28        android:normalScreens="true"
+28-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:29:9-37
+29        android:resizeable="true"
+29-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:26:9-34
+30        android:smallScreens="true"
+30-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:30:9-36
+31        android:xlargeScreens="true" />
+31-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:27:9-37
+32
+33    <meta-data
+33-->[com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:25:5-27:34
+34        android:name="android.support.VERSION"
+34-->[com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:26:9-47
+35        android:value="25.3.1" />
+35-->[com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:27:9-31
+36
+37    <application
+37-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:32:5-139:19
+38        android:allowBackup="true"
+38-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:33:9-35
+39        android:debuggable="true"
+40        android:fullBackupContent="true"
+40-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:34:9-41
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:35:9-43
+42        android:label="@string/app_name"
+42-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:36:9-41
+43        android:supportsRtl="false"
+43-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:37:9-36
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme.Dark" >
+45-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:38:9-45
+46
+47        <!-- The main activity -->
+48        <activity
+48-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:41:9-75:20
+49            android:name="com.praveena.seniordesign.activities.MainActivity"
+49-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:42:13-77
+50            android:label="@string/app_name"
+50-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:43:13-45
+51            android:theme="@style/AppTheme.Dark" >
+51-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:44:13-49
+52            <intent-filter>
+52-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:46:13-49:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:47:17-69
+53-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:47:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:48:17-77
+55-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:48:27-74
+56            </intent-filter>
+57
+58            <!-- SMS messages sending -->
+59            <intent-filter>
+59-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:52:13-63:29
+60                <action android:name="android.intent.action.SEND" />
+60-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:53:17-69
+60-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:53:25-66
+61                <action android:name="android.intent.action.SENDTO" />
+61-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:54:17-71
+61-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:54:25-68
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:17-76
+63-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:17-78
+64-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:27-75
+65
+66                <data android:scheme="sms" />
+66-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+66-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+67                <data android:scheme="smsto" />
+67-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+67-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+68                <data android:scheme="mms" />
+68-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+68-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+69                <data android:scheme="mmsto" />
+69-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+69-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+70            </intent-filter>
+71
+72            <!-- Deep Link -->
+73            <intent-filter>
+73-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:66:13-73:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:67:17-69
+74-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:67:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:17-76
+76-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:17-78
+77-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:27-75
+78
+79                <data android:scheme="com.kaliturin.blacklist" />
+79-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+79-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+80            </intent-filter>
+81        </activity>
+82
+83        <!-- Generic custom activity -->
+84        <activity
+84-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:78:9-80:52
+85            android:name="com.praveena.seniordesign.activities.CustomFragmentActivity"
+85-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:79:13-87
+86            android:theme="@style/AppTheme.Dark" />
+86-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:80:13-49
+87
+88        <!-- BroadcastReceiver listens for incoming calls -->
+89        <receiver android:name="com.praveena.seniordesign.receivers.CallBroadcastReceiver" >
+89-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:83:9-87:20
+89-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:83:19-91
+90            <intent-filter android:priority="100" >
+90-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:84:13-86:29
+90-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:84:28-50
+91                <action android:name="android.intent.action.PHONE_STATE" />
+91-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:85:17-76
+91-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:85:25-73
+92            </intent-filter>
+93        </receiver>
+94
+95        <!-- BroadcastReceiver listens for incoming SMS messages -->
+96        <receiver
+96-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:90:9-97:20
+97            android:name="com.praveena.seniordesign.receivers.SMSBroadcastReceiver"
+97-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:91:13-84
+98            android:permission="android.permission.BROADCAST_SMS" >
+98-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:92:13-66
+99            <intent-filter android:priority="100" >
+99-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:93:13-96:29
+99-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:93:28-50
+100                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+100-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:94:17-82
+100-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:94:25-79
+101                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+101-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:95:17-81
+101-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:95:25-78
+102            </intent-filter>
+103        </receiver>
+104
+105        <!-- BroadcastReceiver listens for incoming MMS messages -->
+106        <receiver
+106-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:100:9-109:20
+107            android:name="com.praveena.seniordesign.receivers.MMSBroadcastReceiver"
+107-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:101:13-84
+108            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+108-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:102:13-71
+109            <intent-filter>
+109-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:103:13-108:29
+110                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+110-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:104:17-87
+110-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:104:25-84
+111                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+111-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:105:17-86
+111-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:105:25-83
+112
+113                <data android:mimeType="application/vnd.wap.mms-message" />
+113-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+113-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:107:23-73
+114            </intent-filter>
+115        </receiver>
+116
+117        <!-- Service delivers messages from the phone "quick response" -->
+118        <service
+118-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:112:9-125:19
+119            android:name="com.praveena.seniordesign.services.SMSRespondService"
+119-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:113:13-80
+120            android:exported="true"
+120-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:114:13-36
+121            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+121-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:115:13-77
+122            <intent-filter>
+122-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:116:13-124:29
+123                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+123-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:117:17-84
+123-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:117:25-81
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:17-76
+125-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:27-73
+126
+127                <data android:scheme="sms" />
+127-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+127-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+128                <data android:scheme="smsto" />
+128-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+128-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+129                <data android:scheme="mms" />
+129-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+129-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+130                <data android:scheme="mmsto" />
+130-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+130-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+131            </intent-filter>
+132        </service>
+133
+134        <!-- BroadcastReceiver listens for sending/delivering SMS messages -->
+135        <receiver android:name="com.praveena.seniordesign.receivers.SMSSendResultBroadcastReceiver" />
+135-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:128:9-103
+135-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:128:19-100
+136
+137        <!-- Service processes received SMS messages -->
+138        <service android:name="com.praveena.seniordesign.services.SMSProcessService" />
+138-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:131:9-88
+138-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:131:18-85
+139
+140        <!-- Service processes SMS/Call blocking events -->
+141        <service android:name="com.praveena.seniordesign.services.BlockEventProcessService" />
+141-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:134:9-95
+141-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:134:18-92
+142
+143        <!-- Service sends SMS messages -->
+144        <service android:name="com.praveena.seniordesign.services.SMSSendService" />
+144-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:137:9-85
+144-->/Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:137:18-82
+145    </application>
+146
+147</manifest>

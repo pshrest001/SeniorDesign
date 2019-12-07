@@ -1,0 +1,4 @@
+#Fri Dec 06 22:30:07 EST 2019
+base.0=/Users/StanleyWong/Downloads/Senior Design/seniordesign/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
