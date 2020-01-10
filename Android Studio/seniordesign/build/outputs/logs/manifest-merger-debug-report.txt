@@ -1,0 +1,335 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+MERGED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/48a993b2ddbb797a4851413abdde09cd/recyclerview-v7-25.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:1-141:12
+	package
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:5:5-33
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:9:22-70
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:13:5-70
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:13:22-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:15:22-66
+uses-permission#android.permission.WRITE_SMS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:18:22-63
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:19:22-74
+uses-sdk
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+MERGED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/48a993b2ddbb797a4851413abdde09cd/recyclerview-v7-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/48a993b2ddbb797a4851413abdde09cd/recyclerview-v7-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:22:9-38
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:21:5-22:41
+		INJECTED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:24:5-30:39
+	android:largeScreens
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:28:9-36
+	android:smallScreens
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:30:9-36
+	android:normalScreens
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:29:9-37
+	android:xlargeScreens
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:27:9-37
+	android:resizeable
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:26:9-34
+	android:anyDensity
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:25:9-34
+application
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:32:5-139:19
+MERGED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:37:9-36
+	android:label
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:36:9-41
+	android:fullBackupContent
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:34:9-41
+	android:icon
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:38:9-45
+activity#com.praveena.seniordesign.activities.MainActivity
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:41:9-75:20
+	android:label
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:43:13-45
+	android:theme
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:42:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:46:13-49:29
+action#android.intent.action.MAIN
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:48:27-74
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:52:13-63:29
+action#android.intent.action.SEND
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:53:25-66
+action#android.intent.action.SENDTO
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:54:17-71
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:54:25-68
+category#android.intent.category.DEFAULT
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:56:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:57:27-75
+data
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:17-46
+	android:scheme
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:59:23-43
+	android:mimeType
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:107:23-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.kaliturin.blacklist
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:66:13-73:29
+action#android.intent.action.VIEW
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:67:25-66
+activity#com.praveena.seniordesign.activities.CustomFragmentActivity
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:78:9-80:52
+	android:theme
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:79:13-87
+receiver#com.praveena.seniordesign.receivers.CallBroadcastReceiver
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:83:9-87:20
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:83:19-91
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:84:13-86:29
+	android:priority
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:84:28-50
+action#android.intent.action.PHONE_STATE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:85:17-76
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:85:25-73
+receiver#com.praveena.seniordesign.receivers.SMSBroadcastReceiver
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:90:9-97:20
+	android:permission
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:92:13-66
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:91:13-84
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER+action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:93:13-96:29
+	android:priority
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:93:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:94:17-82
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:94:25-79
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:95:17-81
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:95:25-78
+receiver#com.praveena.seniordesign.receivers.MMSBroadcastReceiver
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:100:9-109:20
+	android:permission
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:102:13-71
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:101:13-84
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+action:name:android.provider.Telephony.WAP_PUSH_RECEIVED+data:mimeType:application/vnd.wap.mms-message
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:103:13-108:29
+action#android.provider.Telephony.WAP_PUSH_RECEIVED
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:104:17-87
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:104:25-84
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:105:17-86
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:105:25-83
+service#com.praveena.seniordesign.services.SMSRespondService
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:112:9-125:19
+	android:exported
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:114:13-36
+	android:permission
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:115:13-77
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:113:13-80
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:116:13-124:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:117:17-84
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:117:25-81
+receiver#com.praveena.seniordesign.receivers.SMSSendResultBroadcastReceiver
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:128:9-103
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:128:19-100
+service#com.praveena.seniordesign.services.SMSProcessService
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:131:9-88
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:131:18-85
+service#com.praveena.seniordesign.services.BlockEventProcessService
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:134:9-95
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:134:18-92
+service#com.praveena.seniordesign.services.SMSSendService
+ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:137:9-85
+	android:name
+		ADDED from /Users/StanleyWong/Downloads/Senior Design/seniordesign/src/main/AndroidManifest.xml:137:18-82
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/61858d8d98786797d6f091693dd38069/appcompat-v7-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/ad00d860edbf3ff6278b7ed8b4d08548/transition-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/bf04084803e9f85f05e78b2f8943aaae/support-v4-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/4400a2b8a19acb2e7c825b90f177c82a/animated-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/524f416de63f66cb6889b3bf3ba99579/support-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/48a993b2ddbb797a4851413abdde09cd/recyclerview-v7-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/48a993b2ddbb797a4851413abdde09cd/recyclerview-v7-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a6e881dac199c4859913603c9f7ca999/support-fragment-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/94041a2489d3f53f5aa33f4d4ddec115/support-media-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a2be4c3c4f180c0a4c8073741fcaec46/support-core-utils-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/0b18c25d39abe15bad4177051e17c4dd/support-core-ui-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/a0cec08d28ef52d6efd0c5a940ae5325/support-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/StanleyWong/.gradle/caches/transforms-2/files-2.1/32e76544996688ddabab6262345beb97/design-25.3.1/AndroidManifest.xml:26:9-47
